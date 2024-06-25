@@ -159,29 +159,23 @@ function copyText() {
 
 // screenshoot 
 
-    // Ensure html2canvas is loaded before using it
-    window.onload = function() {
-      document.getElementById('screenshotButton').addEventListener('click', function() {
-        // Capture screenshot
-        html2canvas(document.body).then(function(canvas) {
-          // Convert canvas to blob
-          canvas.toBlob(function(blob) {
-            // Create a link element
-            var link = document.createElement('a');
-            link.download = 'screenshot.png'; // Set the default filename
 
-            // Create a URL for the blob
-            var url = URL.createObjectURL(blob);
-            link.href = url;
+document.addEventListener("DOMContentLoaded", function() {
+  var button = document.getElementById('screenshotButton');
 
-            // Append the link to the body and trigger a click event
-            document.body.appendChild(link);
-            link.click();
+  button.addEventListener('click', function() {
+    html2canvas(document.body, {
+      useCORS: true,
+      onrendered: function(canvas) {
+          var link = document.createElement('a');
+          link.download = 'screenshot.png';
+          link.href = canvas.toDataURL();
+          link.click(); // Trigger the download
+      }
+    });
 
-            // Clean up
-            document.body.removeChild(link);
-            URL.revokeObjectURL(url);
-          });
-        });
-      });
-    };
+      
+  });
+});
+
+

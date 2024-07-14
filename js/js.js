@@ -3,50 +3,50 @@ const gameset = {
 // Sunday
 sunday: {
   "9am-3pm": ["76% - JILI স্লটের Money Coming", "70% - REVO স্লটের Alchemy Book", "83% - JILI স্লটের Wild Ace", "74% - PG স্লটের Secrets of Cleopatra"],
-  "3pm-9pm": ["78% - PG স্লটের Candy Burst", "77% - JILI স্লটের Aztec Priestess", "68% - JILI স্লটের Mines", "71% - BNG স্লটের Book of Wizard"],
-  "9pm-3am": ["76% - JILI স্লটের Fortune Gems", "69% - PG স্লটের Wild Bounty Showdown", "75% - BNG স্লটের Black Wolf", "81% - JILI ফিসিং Golden Land"],
+  "3pm-9pm": ["78% - PG স্লটের Candy Burst", "77% - JILI স্লটের Samba", "68% - JILI স্লটের Mines", "71% - BNG স্লটের Book of Wizard"],
+  "9pm-3am": ["76% - JILI স্লটের Fortune Gems", "69% - PG স্লটের Wild Bounty Showdown", "75% - BNG স্লটের Black Wolf", "81% - BNG স্লটের Aztec SUN"],
   "3am-9am": ["67% - JILI স্লটের Dragon Treasure", "72% - HAK ক্রাশ খেলা Mines", "80% - JILI স্লটের Super Ace", "70% - PP স্লটের Gates of Olympus™"],
 },
 // Monday
 monday: {
-  "9am-3pm": ["70% - BNG স্লটের Sun of Egypt 2", "83% - JILI ফিসিং Dinosaur Tycoon II", "69% - JILI স্লটের Dragon & Tiger", "77% - PG স্লটের Secrets of Cleopatra"],
-  "3pm-9pm": ["69% - JILI স্লটের Money Coming", "78% - JILI স্লটের Aztec Priestess", "68% - PP স্লটের Gates of Olympus™", "75% - JILI স্লটের Fortune Gems"],
+  "9am-3pm": ["70% - BNG স্লটের Sun of Egypt 2", "83% - BNG স্লটের BLACK WOLF 2", "69% - JILI স্লটের Dragon & Tiger", "77% - PG স্লটের Secrets of Cleopatra"],
+  "3pm-9pm": ["69% - JILI স্লটের Money Coming", "78% - JILI স্লটের Samba", "68% - PP স্লটের Gates of Olympus™", "75% - JILI স্লটের Fortune Gems"],
   "9pm-3am": ["70% - REVO স্লটের Alchemy Book", "67% - JILI স্লটের Dragon Treasure", "69% - PG স্লটের Prosperity Fortune Tree", "75% - PP স্লটের Barn Festival"],
-  "3am-9am": ["77% - BNG স্লটের Buddha Fortune", "76% - BNG স্লটের Sun of Egypt 2", "69% - PP স্লটের Aztec Gems Deluxe", "80% - JILI ফিসিং Bombing Fishing"],
+  "3am-9am": ["77% - BNG স্লটের Buddha Fortune", "76% - BNG স্লটের Sun of Egypt 2", "69% - PP স্লটের Aztec Gems Deluxe", "80% - JILI স্লটের Candy Baby"],
 },
 // Tuesday
 tuesday: {
   "9am-3pm": ["75% - JILI স্লটের Mines", "70% - PP স্লটের Barn Festival", "78% - JILI স্লটের Super Ace", "81% - JILI ফিসিং Royal Fishing"],
   "3pm-9pm": ["70% - PG স্লটের Wild Bounty Showdown", "74% - BNG স্লটের Book of Wizard", "77% - PG স্লটের Candy Burst", "69% - JILI স্লটের Money Coming"],
-  "9pm-3am": ["78% - JILI ফিসিং Bombing Fishing", "73% - JILI স্লটের Fortune Gems", "81% - JILI স্লটের Mines", "77% - PG স্লটের Secrets of Cleopatra"],
-  "3am-9am": ["78% - JILI ফিসিং Golden Land", "69% - PP স্লটের Aztec Gems Deluxe", "71% - PG স্লটের Prosperity Fortune Tree", "70% - BNG স্লটের Sun of Egypt 2"],
+  "9pm-3am": ["78% - JILI স্লটের Candy Baby", "73% - JILI স্লটের Fortune Gems", "81% - JILI স্লটের Mines", "77% - PG স্লটের Secrets of Cleopatra"],
+  "3am-9am": ["78% - BNG স্লটের Aztec SUN", "69% - PP স্লটের Aztec Gems Deluxe", "71% - PG স্লটের Prosperity Fortune Tree", "70% - BNG স্লটের Sun of Egypt 2"],
 },
 // Wednesday
 wednesday: {
-  "9am-3pm": ["83% - JILI ফিসিং Dinosaur Tycoon II", "69% - PP স্লটের Aztec Gems Deluxe", "74% - BNG স্লটের Black Wolf", "75% - BNG স্লটের Book of Wizard"],
-  "3pm-9pm": ["72% - HAK ক্রাশ খেলা Mines", "69% - JILI স্লটের Dragon Treasure", "78% - JILI স্লটের Aztec Priestess", "68% - JILI স্লটের Mines"],
+  "9am-3pm": ["83% - BNG স্লটের BLACK WOLF 2", "69% - PP স্লটের Aztec Gems Deluxe", "74% - BNG স্লটের Black Wolf", "75% - BNG স্লটের Book of Wizard"],
+  "3pm-9pm": ["72% - HAK ক্রাশ খেলা Mines", "69% - JILI স্লটের Dragon Treasure", "78% - JILI স্লটের Samba", "68% - JILI স্লটের Mines"],
   "9pm-3am": ["77% - PG স্লটের Candy Burst", "77% - BNG স্লটের Buddha Fortune", "75% - PP স্লটের Barn Festival", "74% - JILI স্লটের Fortune Gems"],
   "3am-9am": ["70% - PG স্লটের Symbols of Egypt", "74% - JILI স্লটের Charge Buffalo", "78% - JILI স্লটের Super Ace", "76% - PG স্লটের Reel Love"],
 },
 // Thursday
 thursday: {
-  "9am-3pm": ["69% - JILI স্লটের Money Coming", "77% - JILI ফিসিং Golden Land", "75% - BNG স্লটের Book of Wizard", "70% - PP স্লটের Aztec Gems Deluxe"],
+  "9am-3pm": ["69% - JILI স্লটের Money Coming", "77% - BNG স্লটের Aztec SUN", "75% - BNG স্লটের Book of Wizard", "70% - PP স্লটের Aztec Gems Deluxe"],
   "3pm-9pm": ["70% - PG স্লটের Wild Bounty Showdown", "78% - JILI স্লটের Super Ace", "74% - JILI স্লটের Charge Buffalo", "77% - PG স্লটের Secrets of Cleopatra"],
-  "9pm-3am": ["81% - JILI ফিসিং Golden Land", "75% - BNG স্লটের Buddha Fortune", "70% - PG স্লটের Reel Love", "76% - BNG স্লটের Book of Wizard"],
-  "3am-9am": ["78% - JILI ফিসিং Bombing Fishing", "71% - PG স্লটের Wild Bounty Showdown", "75% - JILI স্লটের Super Ace", "77% - PG স্লটের Candy Burst"],
+  "9pm-3am": ["81% - BNG স্লটের Aztec SUN", "75% - BNG স্লটের Buddha Fortune", "70% - PG স্লটের Reel Love", "76% - BNG স্লটের Book of Wizard"],
+  "3am-9am": ["78% - JILI স্লটের Candy Baby", "71% - PG স্লটের Wild Bounty Showdown", "75% - JILI স্লটের Super Ace", "77% - PG স্লটের Candy Burst"],
 },
 // Friday
 friday: {
   "9am-3pm": ["70% - PG স্লটের Wild Bounty Showdown", "77% - JILI স্লটের Super Ace", "74% - JILI স্লটের Fortune Gems", "69% - PP স্লটের Aztec Gems Deluxe"],
   "3pm-9pm": ["72% - JILI স্লটের Charge Buffalo", "68% - JILI স্লটের Dragon & Tiger", "77% - PG স্লটের Reel Love", "70% - BNG স্লটের Sun of Egypt 2"],
-  "9pm-3am": ["81% - JILI স্লটের Mines", "78% - JILI ফিসিং Bombing Fishing", "75% - JILI স্লটের Fortune Gems", "76% - BNG স্লটের Black Wolf"],
+  "9pm-3am": ["81% - JILI স্লটের Mines", "78% - JILI স্লটের Candy Baby", "75% - JILI স্লটের Fortune Gems", "76% - BNG স্লটের Black Wolf"],
   "3am-9am": ["68% - JILI স্লটের Dragon Treasure", "75% - BNG স্লটের Black Wolf", "70% - JILI স্লটের Money Coming", "71% - PG স্লটের Symbols of Egypt"],
 },
 // Saturday
 saturday: {
-  "9am-3pm": ["76% - JILI স্লটের Aztec Priestess", "70% - BNG স্লটের Sun of Egypt 2", "72% - REVO স্লটের Alchemy Book", "81% - JILI ফিসিং Bombing Fishing", "69% - JILI স্লটের Dragon Treasure"],
-  "3pm-9pm": ["71% - JILI স্লটের Money Coming", "82% - JILI ফিসিং Dinosaur Tycoon II", "68% - JILI স্লটের Mines", "81% - JILI ফিসিং Royal Fishing"],
-  "9pm-3am": ["75% - BNG স্লটের Black Wolf", "70% - PG স্লটের Prosperity Fortune Tree", "81% - JILI স্লটের Mines", "81% - JILI ফিসিং Golden Land"],
+  "9am-3pm": ["76% - JILI স্লটের Samba", "70% - BNG স্লটের Sun of Egypt 2", "72% - REVO স্লটের Alchemy Book", "81% - JILI স্লটের Candy Baby", "69% - JILI স্লটের Dragon Treasure"],
+  "3pm-9pm": ["71% - JILI স্লটের Money Coming", "82% - BNG স্লটের BLACK WOLF 2", "68% - JILI স্লটের Mines", "81% - JILI ফিসিং Royal Fishing"],
+  "9pm-3am": ["75% - BNG স্লটের Black Wolf", "70% - PG স্লটের Prosperity Fortune Tree", "81% - JILI স্লটের Mines", "81% - BNG স্লটের Aztec SUN"],
   "3am-9am": ["75% - JILI স্লটের Charge Buffalo", "71% - PG স্লটের Wild Bounty Showdown", "69% - JILI স্লটের Dragon & Tiger", "70% - PP স্লটের Gates of Olympus™"],
 },
 

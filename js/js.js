@@ -118,33 +118,37 @@ function copyText() {
 
 
 
-      // copy time popup 
+        // copy time popup 
 
-      document.addEventListener('DOMContentLoaded', function() {
-  var downloadButton = document.querySelector('.copytext');
-  var loadingOverlay = document.getElementById('loading-overlay');
+        document.addEventListener('DOMContentLoaded', function() {
+    var downloadButton = document.querySelector('.copytext');
+    var loadingOverlay = document.getElementById('loading-overlay');
 
-  downloadButton.addEventListener('click', function() {
-      // Show loading overlay
-      loadingOverlay.textContent = 'Copy Data 0%';
-      loadingOverlay.classList.add('active');
+    downloadButton.addEventListener('click', function() {
+        // Show loading overlay
+        loadingOverlay.textContent = 'Copy Data 0%';
+        loadingOverlay.classList.add('active');
 
-      var progress = 0;
-      var interval = setInterval(function() {
-          progress += 1;
-          loadingOverlay.textContent = 'Copy Data ' + progress + '%';
-          if (progress >= 100) {
-              clearInterval(interval);
-              // Change text to "Copied"
-              loadingOverlay.textContent = 'Copied';
-              // After 2 seconds, hide loading overlay
-              setTimeout(function() {
-                  loadingOverlay.classList.remove('active');
-              }, 2000);
-          }
-      }, 8); // Adjust the interval here for faster counting
-  });
+        var progress = 0;
+        var interval = setInterval(function() {
+            progress += 1;
+            loadingOverlay.textContent = 'Copy Data ' + progress + '%';
+            loadingOverlay.style.background = "#ffb0b0";
+            loadingOverlay.style.color = "#000000";
+            if (progress >= 100) {
+                clearInterval(interval);
+                // Change text to "Copied"
+                loadingOverlay.textContent = 'Data Copied ✔';
+                loadingOverlay.style.background = "#b0ffba";
+                // After 2 seconds, hide loading overlay
+                setTimeout(function() {
+                    loadingOverlay.classList.remove('active');
+                }, 2000);
+            }
+        }, 8); // Adjust the interval here for faster counting
+    });
 });
+
 
 
 

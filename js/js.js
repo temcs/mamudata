@@ -15,7 +15,7 @@ const gameset = {
       "81% - RG স্লটের Bubble Bliss",
       "87% - JILI স্লটের Crazy Hunter",
       "76% - JILI স্লটের Fortune Gems",
-      "69% - SIMPLE স্লটের RG স্লটের Bubble Bliss",
+      "69% - SIMPLE স্লটের Prosperity Tree",
     ],
     "9am-3pm": [
       "74% - PG স্লটের Secrets of Cleopatra",

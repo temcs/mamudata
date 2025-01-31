@@ -1,6 +1,6 @@
 // Define sets of animal names for each time frame and day
 const gameset = {
-  // Sunday
+// Sunday
   sunday: {
     "3am-9am": [
       "70% - PP স্লটের Gates of Olympus™",
@@ -40,7 +40,7 @@ const gameset = {
       "82% - RG স্লটের Bubble Bliss",
       "81% - JILI স্লটের Crazy Hunter",
       "75% - JILI স্লটের Fortune Gems",
-      "69% - PP স্লটের Gates of Olympus™",
+      "69% - PG স্লটের Gates of Olympus™",
       "78% - JILI স্লটের Samba",
       "69% - JILI স্লটের Money Coming",
       "75% - JILI স্লটের Dragon Treasure",

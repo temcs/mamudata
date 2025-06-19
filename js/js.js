@@ -2,230 +2,354 @@
 const gameset = {
 // Sunday
   sunday: {
-    "3am-9am": [
-      "70% - PP স্লটের Gates of Olympus™",
-      "80% - JILI স্লটের Super Ace",
-      "72% - HAK ক্রাশ খেলা Mines",
-      "67% - JILI স্লটের Dragon Treasure",
-      "82% - RG স্লটের Bubble Bliss",
-    ],
-    "9pm-3am": [
-      "69% - PG স্লটের Wild Bounty Showdown",
-      "75% - BNG স্লটের Aztec SUN",
-      "81% - RG স্লটের Bubble Bliss",
-      "87% - JILI স্লটের Crazy Hunter",
-      "76% - JILI স্লটের Fortune Gems",
-      "69% - SIMPLE স্লটের Prosperity Tree",
-    ],
-    "9am-3pm": [
-      "74% - PG স্লটের Secrets of Cleopatra",
-      "80% - PG স্লটের Tree of Fortune",
-      "76% - JILI স্লটের Money Coming",
-      "70% - REVO স্লটের Alchemy Book",
-      "83% - JILI স্লটের Wild Ace",
-      "84% - JILI স্লটের Dragon Treasure",
-    ],
-    "3pm-9pm": [
-      "71% - BNG স্লটের Book of Wizard",
-      "81% - RG স্লটের Mighty Dragon",
-      "68% - JILI স্লটের Mines",
-      "78% - PG স্লটের Candy Burst",
-      "77% - JILI স্লটের Samba",
-    ],
-  },
-
-  // Monday
-  monday: {
-    "3pm-9pm": [
-      "82% - RG স্লটের Bubble Bliss",
-      "81% - JILI স্লটের Crazy Hunter",
-      "75% - JILI স্লটের Fortune Gems",
-      "69% - PG স্লটের Gates of Olympus™",
-      "78% - JILI স্লটের Samba",
-      "69% - JILI স্লটের Money Coming",
-      "75% - JILI স্লটের Dragon Treasure",
-    ],
-    "9pm-3am": [
-      "70% - REVO স্লটের Alchemy Book",
-      "75% - PP স্লটের Barn Festival",
-      "67% - JILI স্লটের Dragon Treasure",
-      "85% - RG স্লটের Mighty Dragon",
-      "69% - PG স্লটের Prosperity Fortune Tree",
-    ],
-    "9am-3pm": [
-      "77% - PG স্লটের Secrets of Cleopatra",
-      "69% - JILI স্লটের Dragon & Tiger",
-      "74% - PG স্লটের Tree of Fortune",
-      "83% - BNG স্লটের BLACK WOLF 2",
-      "70% - BNG স্লটের Sun of Egypt 2",
-    ],
-    "3am-9am": [
-      "69% - PP স্লটের Aztec Gems Deluxe",
-      "74% - JILI স্লটের Candy Baby",
-      "80% - JILI স্লটের Candy Baby",
-      "77% - BNG স্লটের Buddha Fortune",
-      "79% - RG স্লটের Bubble Bliss",
-    ],
-  },
-
-  // Tuesday
-  tuesday: {
-    "3am-9am": [
-      "70% - BNG স্লটের Sun of Egypt 2",
-      "88% - JILI স্লটের Crazy Hunter",
-      "69% - PP স্লটের Aztec Gems Deluxe",
-      "75% - BNG স্লটের Aztec SUN",
-      "71% - PG স্লটের Prosperity Fortune Tree",
-      "78% - SIMPLE স্লটের Prosperity Tree",
-    ],
-    "3pm-9pm": [
-      "69% - JILI স্লটের Money Coming",
-      "70% - PG স্লটের Wild Bounty Showdown",
-      "77% - PG স্লটের Candy Burst",
-      "74% - BNG স্লটের Book of Wizard",
-      "80% - SIMPLE স্লটের Prosperity Tree",
-    ],
-    "9pm-3am": [
-      "73% - JILI স্লটের Fortune Gems",
-      "78% - JILI স্লটের Mines",
-      "81% - JILI স্লটের Dragon Treasure",
-      "77% - PG স্লটের Secrets of Cleopatra",
-      "78% - JILI স্লটের Candy Baby",
-    ],
-    "9am-3pm": [
-      "78% - JILI স্লটের Super Ace",
-      "75% - JILI স্লটের Mines",
-      "70% - PP স্লটের Barn Festival",
-      "81% - JILI ফিসিং Royal Fishing",
-      "84% - SIMPLE স্লটের Prosperity Tree",
-      "81% - JILI স্লটের Dragon Treasure",
-    ],
-  },
-
-  // Wednesday
-  wednesday: {
-    "3pm-9pm": [
-      "78% - JILI স্লটের Samba",
-      "72% - RG স্লটের Bubble Bliss",
-      "69% - JILI স্লটের Dragon Treasure",
-      "68% - JILI স্লটের Mines",
-    ],
-    "3am-9am": [
-      "70% - PG স্লটের Reel Love",
-      "78% - JILI স্লটের Super Ace",
-      "74% - JILI স্লটের Charge Buffalo",
-      "76% - PG স্লটের Symbols of Egypt",
-      "72% - RG স্লটের Bubble Bliss",
-    ],
-    "9am-3pm": [
-      "69% - PP স্লটের Aztec Gems Deluxe",
-      "75% - BNG স্লটের Book of Wizard",
-      "83% - SIMPLE স্লটের Prosperity Tree",
-      "74% - BNG স্লটের Black Wolf",
-    ],
-    "9pm-3am": [
-      "75% - PP স্লটের Barn Festival",
-      "86% - JILI স্লটের Crazy Hunter",
-      "74% - JILI স্লটের Fortune Gems",
-      "77% - BNG স্লটের Candy Burst",
-      "82% - JILI স্লটের Dragon Treasure",
-    ],
-  },
-
-  // Thursday
-  thursday: {
-    "9pm-3am": [
-      "75% - BNG স্লটের Buddha Fortune",
-      "76% - BNG স্লটের Book of Wizard",
-      "76% - BNG স্লটের Black Wolf",
-      "81% - BNG স্লটের Aztec SUN",
-      "81% - JILI স্লটের Dragon Treasure",
-    ],
-    "3am-9am": [
-      "77% - PG স্লটের Candy Burst",
-      "88% - JILI স্লটের Crazy Hunter",
-      "75% - JILI স্লটের Super Ace",
-      "78% - JILI স্লটের Candy Baby",
-      "71% - PG স্লটের Wild Bounty Showdown",
-    ],
-    "3pm-9pm": [
-      "77% - PG স্লটের Secrets of Cleopatra",
-      "74% - JILI স্লটের Charge Buffalo",
-      "78% - JILI স্লটের Super Ace",
-      "77% - BNG স্লটের Aztec SUN",
-    ],
-    "9am-3pm": [
-      "77% - BNG স্লটের Aztec SUN",
-      "70% - PP স্লটের Aztec Gems Deluxe",
-      "75% - BNG স্লটের Book of Wizard",
-      "69% - JILI স্লটের Money Coming",
-      "80% - JILI স্লটের Dragon Treasure",
-    ],
-  },
-  // Friday
-  friday: {
-    "3am-9am": [
-      "71% - PG স্লটের Symbols of Egypt",
-      "75% - BNG স্লটের Black Wolf",
-      "70% - JILI স্লটের Money Coming",
-      "68% - JILI স্লটের Dragon Treasure",
-    ],
-    "3pm-9pm": [
-      "77% - PG স্লটের Reel Love",
-      "70% - BNG স্লটের Sun of Egypt 2",
-      "72% - JILI স্লটের Charge Buffalo",
-      "68% - JILI স্লটের Dragon & Tiger",
-      "77% - SIMPLE স্লটের Prosperity Tree",
-    ],
-    "9pm-3am": [
-      "76% - BNG স্লটের Black Wolf",
-      "81% - JILI স্লটের Mines",
-      "75% - JILI স্লটের Fortune Gems",
-      "78% - JILI স্লটের Candy Baby",
-      "75% - JILI স্লটের Charge Buffalo",
-      "83% - JILI স্লটের Dragon Treasure",
-    ],
-    "9am-3pm": [
-      "69% - PP স্লটের Aztec Gems Deluxe",
-      "82% - JILI স্লটের Crazy Hunter",
-      "74% - JILI স্লটের Fortune Gems",
-      "77% - JILI স্লটের Super Ace",
-      "70% - PG স্লটের Wild Bounty Showdown",
-      "68% - JILI স্লটের Dragon & Tiger",
-    ],
-  },
-
-  // Saturday
-  saturday: {
-    "3am-9am": [
-      "71% - PG স্লটের Wild Bounty Showdown",
-      "75% - JILI স্লটের Charge Buffalo",
-      "70% - PP স্লটের Gates of Olympus™",
-      "71% - SIMPLE স্লটের Prosperity Tree",
-    ],
-    "3pm-9pm": [
-      "82% - BNG স্লটের BLACK WOLF 2",
-      "68% - JILI স্লটের Mines",
-      "85% - JILI স্লটের Dragon Treasure",
-      "71% - JILI স্লটের Money Coming",
-      "81% - JILI ফিসিং Royal Fishing",
-    ],
-    "9pm-3am": [
-      "75% - BNG স্লটের Black Wolf",
-      "80% - JILI স্লটের Crazy Hunter",
-      "81% - BNG স্লটের Mines",
-      "81% - BNG স্লটের Aztec SUN",
-      "70% - PG স্লটের Prosperity Fortune Tree",
-      "70% - RG স্লটের Bubble Bliss",
-    ],
-    "9am-3pm": [
-      "70% - BNG স্লটের Sun of Egypt 2",
-      "76% - JILI স্লটের Samba",
-      "81% - JILI স্লটের Candy Baby",
-      "69% - JILI স্লটের Dragon Treasure",
-      "72% - REVO স্লটের Alchemy Book",
-    ],
-  },
+"9am-3pm": [
+"83% -  PEGASUS স্লটের Pirate Attack",
+"80% -  JDB স্লটের Dragon Soar - Hyper Wild",
+"74% -  BNG স্লটের buddha fortune",
+"74% -  BNG স্লটের boom gold",
+"80% -  HOTDOG স্লটের Break the Ice!",
+"79% -  HBN স্লটের Bird of Thunder",
+"79% -  KA স্লটের A Girl's Best Friend",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"76% -  JILI স্লটের Fortune Gems 2 "
+],
+"3pm-9pm": [
+"81% -  PP স্লটের Gates of Olympus™",
+"80% -  JDB স্লটের Magic Ace Wild Lock",
+"81% -  PP স্লটের Book of Golden Sands",
+"83% -  LGD স্লটের Four Beauties",
+"88% -  PG স্লটের Wild Bounty Showdown",
+"81% -  RG স্লটের Sweet Bonanza",
+"79% -  FASTSPIN স্লটের Adventure To The West",
+"80% -  HOTDOG স্লটের Doom Squad",
+"76% -  BGM স্লটের Fortuna Trueways",
+"81% -  RG স্লটের Bubble Bliss"
+],
+"9pm-3am": [
+"74% -  BGM ক্রাশের Heads and Tails",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"76% -  VPOWER স্লটের Circus",
+"87% -  PG স্লটের Wild Bounty Showdown",
+"83% -  PEGASUS স্লটের Crazy Thieves",
+"82% -  PLAYSTAR স্লটের Fa Fa Monkey",
+"76% -  JILI স্লটের Dragon Treasure ",
+"79% -  HBN স্লটের Gangsters",
+"83% -  LGD স্লটের Clash of Three kingdoms",
+"80% -  JDB স্লটের Fruity Bonanza"
+],
+"3am-9am": [
+"83% -  LGD স্লটের Crazy Alchemist",
+"72% -  RICH88 স্লটের One Piece",
+"79% -  HBN স্লটের Arctic Hunt",
+"79% -  KA স্লটের Duel Skate boards",
+"76% -  VPOWER স্লটের Circus",
+"83% -  PEGASUS স্লটের Crazy Thieves",
+"81% -  EVO ক্যাসিনোর MONOPOLY Big Bailer",
+"75% -  FACHAI স্লটের Mines",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"75% -  HAK ক্রাশের Coins"
+]
+},
+monday: {
+"9am-3pm": [
+"76% -  NAGA স্লটের Pumpkin Night",
+"76% -  BGM স্লটের Avalon: The Lost Kingdom",
+"75% -  HAK ক্রাশের Coins",
+"74% -  BNG স্লটের buddha fortune",
+"83% -  SG স্লটের Caishen",
+"88% -  PG স্লটের Wild Bounty Showdown",
+"83% -  CQ9 স্লটের FaCaiShen",
+"76% -  JILI স্লটের Fortune Monkey",
+"74% -  BGM ক্রাশের Heads and Tails",
+"76% -  NAGA স্লটের Pawsome Xmas"
+],
+"3pm-9pm": [
+"76% -  JILI স্লটের Fortune Monkey",
+"81% -  EVO ক্যাসিনোর MONOPOLY Big Bailer",
+"81% -  KM স্লটের Leppy Loot",
+"81% -  SPB ক্রাশের Aviator",
+"87% -  PG স্লটের Wild Bounty Showdown",
+"76% -  JILI স্লটের Fortune Monkey",
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"81% -  SPB ক্রাশের Aviator",
+"76% -  VPOWER স্লটের Cookie Pop",
+"81% -  PLAYSON স্লটের Jokers Coins"
+],
+"9pm-3am": [
+"83% -  LGD স্লটের Four Holy Beast",
+"81% -  PP ক্যাসিনোর Mega Wheel",
+"72% -  RICH88 স্লটের Fortune Dragon",
+"76% -  VPOWER স্লটের Blackjack",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"81% -  EVO ক্যাসিনোর Auto-Roulette",
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"81% -  PG স্লটের Wild Bandito",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"81% -  PP ক্যাসিনোর Fortune Roulette"
+],
+"3am-9am": [
+"76% -  BGM স্লটের Brave Viking",
+"83% -  LGD স্লটের Four Beauties",
+"74% -  BNG স্লটের boom gold",
+"88% -  PG স্লটের Wild Bounty Showdown",
+"83% -  CQ9 স্লটের FaCaiShen",
+"81% -  EVO ক্যাসিনোর Auto-Roulette",
+"81% -  PP ক্যাসিনোর Mega Wheel",
+"83% -  LGD স্লটের Four Beauties",
+"83% -  PEGASUS স্লটের Crazy Thieves",
+"81% -  PP স্লটের 5 Lions"
+]
+},
+tuesday: {
+"9am-3pm": [
+"76% -  BGM স্লটের Fortuna Trueways",
+"80% -  JDB স্লটের Dragon Soar - Hyper Wild",
+"72% -  RICH88 স্লটের One Piece",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"81% -  PP স্লটের Big Bass - Hold & Spinner™",
+"83% -  PEGASUS স্লটের Mahjong Gold 2",
+"83% -  SG স্লটের Gold Panther Maxways",
+"83% -  LGD স্লটের Clash of Three kingdoms",
+"81% -  EVO ক্যাসিনোর MONOPOLY Big Bailer",
+"76% -  VPOWER স্লটের Circus"
+],
+"3pm-9pm": [
+"79% -  HBN স্লটের Arctic Hunt",
+"80% -  HOTDOG স্লটের Imperial Kingdom",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"76% -  VPOWER স্লটের Cookie Pop",
+"86% -  PG স্লটের Wild Bounty Showdown",
+"79% -  SIMPLE স্লটের Cheung Po Tsai",
+"79% -  SIMPLE স্লটের Golden Chicken",
+"76% -  JILI স্লটের Alibaba",
+"74% -  BGM ক্রাশের Heads and Tails",
+"76% -  NAGA স্লটের Pumpkin Night"
+],
+"9pm-3am": [
+"83% -  SG স্লটের Fiery Sevens",
+"75% -  HAK ক্রাশের Coins",
+"81% -  NEXTSPIN স্লটের Forest Secret",
+"74% -  BNG স্লটের buddha fortune",
+"76% -  JILI স্লটের Alibaba",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"72% -  RICH88 স্লটের Future Stars",
+"76% -  BGM স্লটের Beer Bonanza",
+"72% -  RICH88 স্লটের Fortune Dragon",
+"76% -  JILI স্লটের Alibaba"
+],
+"3am-9am": [
+"74% -  BNG স্লটের buddha fortune",
+"81% -  RG স্লটের Sweet Bonanza",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"80% -  HOTDOG স্লটের Cai Shen Coin",
+"81% -  KM স্লটের Leppy Loot",
+"87% -  PG স্লটের Wild Bounty Showdown",
+"81% -  KM স্লটের London Mystery",
+"75% -  FACHAI স্লটের Zeus",
+"81% -  RG স্লটের Bubble Bliss",
+"81% -  PG স্লটের Wild Bounty Showdown"
+]
+},
+wednesday: {
+"9am-3pm": [
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"76% -  REEVO স্লটের Santas Gifts",
+"81% -  SPB ক্রাশের Aviator",
+"88% -  PG স্লটের Wild Bounty Showdown",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"79% -  HBN স্লটের Bird of Thunder",
+"79% -  FASTSPIN স্লটের The Great Safari",
+"76% -  NAGA স্লটের Steampunk Reloaded",
+"81% -  KM স্লটের Cleopatra's Treasure",
+"81% -  PP ক্যাসিনোর Mega Wheel"
+],
+"3pm-9pm": [
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"76% -  REEVO স্লটের Santas Gifts",
+"81% -  SPB ক্রাশের Aviator",
+"88% -  PG স্লটের Wild Bounty Showdown",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"79% -  HBN স্লটের Bird of Thunder",
+"79% -  FASTSPIN স্লটের The Great Safari",
+"76% -  NAGA স্লটের Steampunk Reloaded",
+"81% -  KM স্লটের Cleopatra's Treasure",
+"81% -  PP ক্যাসিনোর Mega Wheel"
+],
+"9pm-3am": [
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"83% -  SG স্লটের Fiery Sevens",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"76% -  BGM স্লটের Avalon: The Lost Kingdom",
+"81% -  EVO ক্যাসিনোর MONOPOLY Big Bailer",
+"74% -  BNG স্লটের buddha fortune",
+"80% -  HOTDOG স্লটের Doom Squad",
+"81% -  KM স্লটের Sugar Blast Frenzy",
+"81% -  NEXTSPIN স্লটের Golden West"
+],
+"3am-9am": [
+"75% -  HAK ক্রাশের Speed Crash",
+"80% -  HOTDOG স্লটের Break the Ice!",
+"81% -  PP ক্যাসিনোর Fortune Roulette",
+"81% -  PP ক্যাসিনোর Fortune Roulette",
+"74% -  BGM ক্রাশের PlinkoXY",
+"84% -  PG স্লটের Wild Bounty Showdown",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"81% -  KM স্লটের Leppy Loot",
+"74% -  BGM ক্রাশের PlinkoXY",
+"81% -  EVO ক্যাসিনোর Auto-Roulette"
+]
+},
+thursday: {
+"9am-3pm": [
+"81% -  SPB ক্রাশের Aviator",
+"81% -  PG স্লটের Asgardian Rising",
+"79% -  KA স্লটের Aladdin",
+"80% -  HOTDOG স্লটের Imperial Kingdom",
+"83% -  JOKER স্লটের Belangkai",
+"86% -  PG স্লটের Wild Bounty Showdown",
+"81% -  SPB ক্রাশের Aviator",
+"81% -  KM স্লটের Cleopatra's Treasure",
+"79% -  FASTSPIN স্লটের Adventure To The West",
+"74% -  BGM ক্রাশের Heads and Tails"
+],
+"3pm-9pm": [
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"79% -  HBN স্লটের Arctic Hunt",
+"79% -  HBN স্লটের Bird of Thunder",
+"81% -  NEXTSPIN স্লটের Cleopatra's Fortun",
+"81% -  KM স্লটের Cleopatra's Treasure",
+"76% -  REEVO স্লটের Santas Gifts",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"79% -  SIMPLE স্লটের Golden Chicken",
+"81% -  EVO ক্যাসিনোর Auto-Roulette",
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo"
+],
+"9pm-3am": [
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"79% -  KA স্লটের A Girl's Best Friend",
+"76% -  JILI স্লটের Dragon Treasure ",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"84% -  PG স্লটের Wild Bounty Showdown",
+"81% -  PP স্লটের Book of Golden Sands",
+"79% -  SIMPLE স্লটের Golden Chicken",
+"79% -  SIMPLE স্লটের Cheung Po Tsai",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"75% -  HAK ক্রাশের Speed Crash"
+],
+"3am-9am": [
+"76% -  BGM স্লটের Avalon: The Lost Kingdom",
+"76% -  VPOWER স্লটের Cookie Pop",
+"86% -  PG স্লটের Wild Bounty Showdown",
+"72% -  RICH88 স্লটের Panda King Hold And Win",
+"81% -  NEXTSPIN স্লটের Forest Secret",
+"80% -  HOTDOG স্লটের Imperial Kingdom",
+"81% -  SPB ক্রাশের Aviator",
+"81% -  PG স্লটের Wild Bandito",
+"81% -  PG স্লটের Asgardian Rising",
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo"
+]
+},
+friday: {
+"9am-3pm": [
+"83% -  SG স্লটের Fiery Sevens",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"79% -  KA স্লটের A Girl's Best Friend",
+"76% -  NAGA স্লটের Pumpkin Night",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"81% -  PLAYSON স্লটের Divine Dragon Hold and Win",
+"76% -  JILI স্লটের Alibaba",
+"76% -  VPOWER স্লটের Blackjack",
+"75% -  FACHAI স্লটের Zeus",
+"80% -  HOTDOG স্লটের Break the Ice!"
+],
+"3pm-9pm": [
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"83% -  SG স্লটের Fiery Sevens",
+"76% -  BGM স্লটের Avalon: The Lost Kingdom",
+"81% -  EVO ক্যাসিনোর MONOPOLY Big Bailer",
+"74% -  BNG স্লটের buddha fortune",
+"80% -  HOTDOG স্লটের Doom Squad",
+"85% -  PG স্লটের Wild Bounty Showdown",
+"81% -  KM স্লটের Sugar Blast Frenzy",
+"81% -  NEXTSPIN স্লটের Golden West"
+],
+"9pm-3am": [
+"81% -  EVO ক্যাসিনোর Auto-Roulette",
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"74% -  BGM ক্রাশের PlinkoXY",
+"81% -  PG স্লটের Asgardian Rising",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"75% -  HAK ক্রাশের Speed Crash",
+"81% -  PG স্লটের Wild Bounty Showdown",
+"82% -  PLAYSTAR স্লটের Fa Fa Monkey",
+"79% -  KA স্লটের A Girl's Best Friend",
+"81% -  RG স্লটের Bubble Bliss"
+],
+"3am-9am": [
+"72% -  RICH88 স্লটের One Piece",
+"81% -  PP স্লটের Gates of Olympus™",
+"83% -  PEGASUS স্লটের Mahjong Gold 2",
+"79% -  SIMPLE স্লটের Golden Chicken",
+"80% -  JDB স্লটের Fruity Bonanza",
+"74% -  BNG স্লটের 15 dragon pearls",
+"75% -  HAK ক্রাশের Speed Crash",
+"85% -  PG স্লটের Wild Bounty Showdown",
+"79% -  SIMPLE স্লটের Cheung Po Tsai",
+"75% -  HAK ক্রাশের Speed Crash"
+]
+},
+saturday: {
+"9am-3pm": [
+"81% -  PP ক্যাসিনোর Fortune Roulette",
+"76% -  REEVO স্লটের Le Bossu: Richesse Royale",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"81% -  PP ক্যাসিনোর Snakes & Ladders Live",
+"83% -  PEGASUS স্লটের Mahjong Gold 2",
+"83% -  LGD স্লটের Four Beauties",
+"86% -  PG স্লটের Wild Bounty Showdown",
+"79% -  SIMPLE স্লটের Bikini Chaser",
+"76% -  JILI স্লটের Fortune Gems 2 ",
+"79% -  KA স্লটের 777 Vegas"
+],
+"3pm-9pm": [
+"76% -  NAGA স্লটের Pumpkin Night",
+"76% -  BGM স্লটের Avalon: The Lost Kingdom",
+"75% -  HAK ক্রাশের Coins",
+"74% -  BNG স্লটের buddha fortune",
+"83% -  SG স্লটের Caishen",
+"89% -  PG স্লটের Wild Bounty Showdown",
+"83% -  CQ9 স্লটের FaCaiShen",
+"76% -  JILI স্লটের Fortune Monkey",
+"74% -  BGM ক্রাশের Heads and Tails",
+"76% -  NAGA স্লটের Pawsome Xmas"
+],
+"9pm-3am": [
+"81% -  KM স্লটের Cleopatra's Treasure",
+"83% -  JOKER স্লটের Book Of Ra Deluxe",
+"83% -  JOKER স্লটের Belangkai",
+"88% -  PG স্লটের Wild Bounty Showdown",
+"81% -  PLAYSON স্লটের Sherwood Coins: Hold and Win",
+"75% -  FACHAI স্লটের Glory Of Rome",
+"72% -  RICH88 স্লটের One Piece",
+"80% -  JDB স্লটের Birds Party Deluxe",
+"81% -  PP স্লটের Book of Golden Sands",
+"76% -  VPOWER স্লটের Blackjack"
+],
+"3am-9am": [
+"76% -  JILI স্লটের Dragon Treasure ",
+"81% -  EVO ক্যাসিনোর Lightning Sic Bo",
+"76% -  VPOWER স্লটের Circus",
+"86% -  PG স্লটের Wild Bounty Showdown",
+"81% -  PLAYSON স্লটের Sherwood Coins: Hold and Win",
+"83% -  CQ9 স্লটের Flying Cai Shen",
+"81% -  PLAYSON স্লটের Sherwood Coins: Hold and Win",
+"81% -  SPB ক্রাশের Aviator",
+"75% -  HAK ক্রাশের Mines",
+"79% -  SIMPLE স্লটের Golden Chicken"
+]
+},
 };
 
 // Function to get the current day and time

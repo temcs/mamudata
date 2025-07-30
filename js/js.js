@@ -1,6 +1,7 @@
 // Define sets of animal names for each time frame and day
 const gameset = {
 // Sunday
+//এখান থেকে পেস্ট হবে
   sunday: {
 "9am-3pm": [
 "83% -  PEGASUS স্লটের Pirate Attack",
@@ -350,6 +351,9 @@ saturday: {
 "79% -  SIMPLE স্লটের Golden Chicken"
 ]
 },
+
+
+  //এটার আগে পেস্ট শেষ হবে 
 };
 
 // Function to get the current day and time
